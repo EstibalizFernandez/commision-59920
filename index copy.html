@@ -61,68 +61,56 @@
       </nav>
     </header>
 
-    <main class="container mt-4">
-      <!-- Desplegable -->
-      <section class="row justify-content-center">
-        <article class="col-12 col-md-8">
-          <div class="input-group mb-3">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="¿Qué tipo de viajero eres?"
-              aria-label="Tipo de viajero"
-            />
-            <button
-              class="btn btn-outline-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            ></button>
-            <ul class="dropdown-menu dropdown-menu-end w-100">
-              <li><a class="dropdown-item" href="#">Empresa</a></li>
-              <li><a class="dropdown-item" href="#">Nómada</a></li>
-            </ul>
-          </div>
-        </article>
-      </section>
-    <!-- Línea de tarjetas -->
-      <section class="row">
-        <article class="col-12 col-md-6 mb-3 d-flex">
-          <div class="card" style="width: 30rem">
+    <div class="dropdown w-100 mt-4">
+      <button
+        class="btn btn-secondary dropdown-toggle w-100"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        ¿qué tipo de viajero eres?
+      </button>
+      <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">empresa</a></li>
+        <li><a class="dropdown-item" href="#">nómada</a></li>
+      </ul>
+    </div>
+    <main>
+      <section
+        class="card_list d-flex flex-lg-row flex-column w-100 border border-dark justify-content-between align-items-center py-3 my-4"
+      >
+        <article class="card justify-content-start" style="width: 20rem">
+          <a href="./pages/services.html" id="nomades">
             <img
               src="./assets/img/company.jpeg"
               class="card-img-top"
-              alt="Empresa"
+              alt="servicios_para_empresas"
+              width="200"
+              height="200"
             />
-            <div class="card-body text-center">
-              <h5 class="card-title">Empresa</h5>
-              <a href="./pages/services.html" class="btn btn-warning"
-                >Servicios</a
-              >
-              <a
-                href="./pages/contact.html"
-                class="btn btn-light border-success"
-                >Contáctanos</a
-              >
+            <div class="card-body">
+              <p class="card-text">EMPRESA</p>
             </div>
-          </div>
+          </a>
         </article>
-        <article class="col-12 col-md-6 mb-3 d-flex">
-          <div class="card" style="width: 30rem">
+
+        <article class="card" style="width: 20rem">
+          <a href="./pages/nomade.html" id="nomades">
             <img
               src="./assets/img/nomade.jpeg"
               class="card-img-top"
-              alt="Nómada"
+              alt="servicios_para_nomades"
+              width="200"
+              height="200"
             />
-            <div class="card-body text-center">
-              <h5 class="card-title">Nómada</h5>
-              <a href="#" class="btn btn-warning">Servicios</a>
+            <div class="card-body">
+              <p class="card-text">NÓMADE</p>
             </div>
-          </div>
+          </a>
         </article>
       </section>
     </main>
-
     <section class="container">
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
@@ -167,7 +155,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <!-- javascript del curso de JS -->
-    <script src="./js/main.js"></script>
+    
   </body>
 </html>

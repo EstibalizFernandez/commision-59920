@@ -24,10 +24,10 @@
       <div class="container-fluid">
         <a class="nav-link active" aria-current="page" href="../index.html"
           ><img
-            src="../assets/img/logo-fakeç.jpeg"
-            alt="Bootstrap"
-            width="30"
-            height="30"
+            src="../assets/img/logo-fake.jpeg"
+            alt="logo_marketing_nomada"
+            width="45"
+            height="45"
         /></a>
         <button
           class="navbar-toggler"
@@ -59,80 +59,206 @@
       </div>
     </nav>
   </header>
-    <main>
-      <section class="searcher">
-        <h1>¿qué tipo de viajero eres?</h1>
-        <div class="icon">icon</div>
-      </section>
- 
-        <section class="my_card_list"> 
-            <div id="wordpress" class="my_card">
-              <div class="my_banner banner_img_wordpress"></div>
-                <h2>Wordpress</h2>
-                <h3>tu avioneta autogestionado</h3>
-            </div>
-            <div id="react" class="my_card">
-              <div class="my_banner banner_img_react"></div>
-                <h2>React</h2>
-                <h3>tu avión más flexible</h3>
-            </div>
-            <div id="angular" class="my_card">
-              <div class="my_banner banner_img_angular"></div>
-                <h2>Angular</h2>
-                <h3>El avión más robusto</h3>
-            </div>
-        </section>
-        <section id="analytics" class="my_card_list"> 
-            <div id="ga4" class="my_card">
-              <div class="my_banner banner_img_ga4"></div>
-                <h2>Google Analytics 4</h2>
-                <h3>Imprescindible en cada vuelo</h3>
-            </div>
-            <div id="gtm" class="my_card">
-              <div class="my_banner banner_img_ga4"></div>
-                <h2>Google Tag Manager</h2>
-                <h3>Agiliza la gestión de tu viaje</h3>
-            </div>
-            <div id="tealium" class="my_card">
-              <div class="my_banner banner_img_tealium"></div>
-                <h2>Tealium</h2>
-                <h3>Para viajes de grandes compañías</h3>
-            </div>
-        </section>
-        <section id="fotografia" class="my_card_list"> 
-            <div id="productos" class="my_card">
-              <div class="my_banner banner_img_food"></div>
-                <h2>Fotografía de productos</h2>
-                <h3>Disfruta del menú</h3>
-            </div>
-            <div id="productos" class="my_card">
-              <div class="my_banner banner_img_events"></div>
-                <h2>Fotografía de eventos</h2>
-                <h3>Inmortaliza tu viaje</h3>
-            </div>
-            <div id="eventos" class="my_card">
-              <div class="my_banner banner_img_theater"></div>
-                <h2>Fotogrfía de teatro</h2>
-                <h3>Revive los mejores momentos</h3>
-            </div>
-        </section>
-    </main>
-    <footer class="grid_footer">
-      <div class="footer-grid">
-        <div>creado por marketing nomada</div>
-        <div>copyright 2024</div>
-        <a href="#">linkedin 1</a>
-        <a href="#">linkedin 2</a>
-        <a href="#">instagram</a>
-        <a href="#topPrivacy">volver arriba</a>
+  <main class="container mt-4">
+    <!-- Desplegable -->
+    <section class="row justify-content-center">
+      <article class="col-12 col-md-8">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="¿Qué tipo de viajero eres?"
+            aria-label="Tipo de viajero"
+          />
+          <button
+            class="btn btn-outline-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          ></button>
+          <ul class="dropdown-menu dropdown-menu-end w-100">
+            <li><a class="dropdown-item" href="#">Empresa</a></li>
+            <li><a class="dropdown-item" href="#">Nómada</a></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  <!-- Línea de tarjetas -->
+    <section class="row" id="development">
+        <!-- Tarjeta 1 -->
+      <article class="col-12 col-md-4 mb-3 d-flex">
+        <div class="card w-100">
+          <img
+            src="../assets/img/wordpress.jpeg"
+            class="card-img-top"
+            alt="wordpress"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Wordpress</h5>
+            <a href="#" class="btn border-primary">tu avioneta autogestionada</a>
+          </div>
+        </div>
+      </article>
+      <!-- Tarjeta 2 -->
+      <article class="col-12 col-md-4 mb-3 d-flex">
+        <div class="card w-100">
+          <img
+            src="../assets/img/react.jpeg"
+            class="card-img-top"
+            alt="reaact"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">React</h5>
+            <a href="#" class="btn border-primary">tu avioneta más adaptable</a>
+          </div>
+        </div>
+      </article>
+      <!-- Tarjeta 3 -->
+      <article class="col-12 col-md-4 mb-3 d-flex">
+        <div class="card w-100">
+          <img
+            src="../assets/img/angular.jpeg"
+            class="card-img-top"
+            alt="angular"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Angular</h5>
+            <a href="#" class="btn border-primary">tu avión mása robusto</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  <!-- Línea de tarjetas medición-->
+    <section class="row" id="analytics">
+        <!-- Tarjeta 4 -->
+      <article class="col-12 col-md-4 mb-3 d-flex">
+        <div class="card w-100">
+          <img
+            src="../assets/img/ga4.jpeg"
+            class="card-img-top"
+            alt="ga4"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Google Analytics 4</h5>
+            <a href="#" class="btn border-primary">tu azafata de datos</a>
+          </div>
+        </div>
+      </article>
+      <!-- Tarjeta 5 -->
+      <article class="col-12 col-md-4 mb-3 d-flex">
+        <div class="card w-100">
+          <img
+            src="../assets/img/gtm.jpeg"
+            class="card-img-top"
+            alt="gtm"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Google Tag Manager</h5>
+            <a href="#" class="btn border-primary">tu agencia de viajes al mejor precio</a>
+          </div>
+        </div>
+      </article>
+      <!-- Tarjeta 6 -->
+      <article class="col-12 col-md-4 mb-3 d-flex">
+        <div class="card w-100">
+          <img
+            src="../assets/img/tealium.jpeg"
+            class="card-img-top"
+            alt="tealium"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Tealium</h5>
+            <a href="#" class="btn border-primary">monta tu propia compañía</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Línea de tarjetas -->
+    <section class="row" id="fotografia">
+      <!-- Tarjeta 7 -->
+    <article class="col-12 col-md-4 mb-3 d-flex">
+      <div class="card w-100">
+        <img
+          src="../assets/img/food.jpeg"
+          class="card-img-top"
+          alt="fotografia_productos"
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">Fotografía de productos</h5>
+          <a href="#" class="btn border-primary">saborea tu mejor menú</a>
+        </div>
       </div>
+    </article>
+    <!-- Tarjeta 8 -->
+    <article class="col-12 col-md-4 mb-3 d-flex">
+      <div class="card w-100">
+        <img
+          src="../assets/img/events.jpeg"
+          class="card-img-top"
+          alt="fotografia_de eventos"
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">Fotografía de eventos</h5>
+          <a href="#" class="btn border-primary">Inmortaliza tu viaje</a>
+        </div>
+      </div>
+    </article>
+    <!-- Tarjeta 9 -->
+    <article class="col-12 col-md-4 mb-3 d-flex">
+      <div class="card w-100">
+        <img
+          src="../assets/img/theater.jpeg"
+          class="card-img-top"
+          alt="fotografia_teatro"
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">Fotografía de teatro</h5>
+          <a href="#" class="btn border-primary">Revive los mejores momentos</a>
+        </div>
+      </div>
+    </article>
+  </section>
+  </main>
+ 
+  <section class="container">
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+        >
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary"
+          >© 2024 Company, Inc</span
+        >
+      </div>
+
+      <ul class="col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-whatsapp"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
-     <!-- bootstrap -->
-     <script
-     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-     crossorigin="anonymous"
-   ></script>
+  </section>
+
 </body>
 
 </html>
