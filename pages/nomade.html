@@ -18,7 +18,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
 </head>
-<body id="topNomade">
+<body id="topNomade" class="container">
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -59,35 +59,55 @@
       </div>
     </nav>
   </header>
-    <main class="nomadeInfo">
-        <section>
-          <div class="searcher">
-            <h1>únete a la tripulación</h1>
-          </div>
-          <div class="searcher">
-              <form action="" id="nomadeForm" class="form">
-                  <label for="name">nombre</label>
-                  <input type="text" name="name" id="name" required>
-                  <label for="lastaname">apellidos</label>
-                  <input type="text" name="lastaname" id="lastaname" required>
-                  <label for="email">email</label>
-                  <input type="email" name="email" id="email" required>
-                  <label for="lIn">linkedIn</label>
-                  <input type="link" name="lIn" id="lIn" required>
-                  <label for="git">Git Hub</label>
-                  <input type="link" name="git" id="git" required>
-                  <textarea rows="4" cols="50" name="message" form="nomadeForm">cuéntanos todo lo que quieras sobre ti</textarea>
-                  <div>
-                    <input type="checkbox" name="privacy" id="privacy" required>
-                    <label for="privacy">Acepto la <a href="./privacy.html">política de privacidad</a></label>
-                  </div>
-                  <input type="submit" name="submit" id="submit" required>
-              </form>
-          </div>
-        </section>
-        <section>
-          <h2 class="searcher">win-win</h2>
+    <main  class="mt-4">
+       <!-- Buscador -->
+       <section class="card p-2 mb-4">
+        <h5 class="text-center mb-4">¿quieres unirte a la tripulación?</h5>
       </section>
+      <!-- cierre de buscador -->
+      <section class="container mt-5">
+        <div class="form-container">
+            <form>
+              <section class="row justify-content-center">
+                <div class="col-12 col-md-4 mb-3">
+                  <input type="text" class="form-control" placeholder="nombre" required>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                  <input type="text" class="form-control" placeholder="apellidos" required>
+                </div>
+              </section>
+              <section class="row justify-content-center">
+                <div class="col-12 col-md-4 mb-3">
+                  <input type="email" class="form-control" placeholder="email"  required>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                  <input type="text" class="form-control" placeholder="teléfono" required>
+                </div>
+              </section>
+              <section class="row justify-content-center">
+                <div class="col-12 col-md-8 mb-3">
+                  <input type="text" class="form-control mb-3" placeholder="LinedIn" required>
+                  <input type="text" class="form-control mb-3" placeholder="GitHub" required>
+                  <textarea class="form-control" placeholder="escribe tu mensaje..." required></textarea>
+                </div>
+              </section>
+              <section class="row justify-content-center">
+                <div class="col-12 col-md-4 mb-3">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                  <label class="form-check-label" for="invalidCheck2"> acepto la política de privacidad </label>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </section>
+            </form>
+        </div>
+      </section>
+       <!-- Título -->
+       <section class="card p-2 mb-4">
+        <h5 class="text-center mb-4">recuros para nómades (win-win)</h5>
+      </section>
+      <!-- cierre de título -->
       <section class="container">
         <footer
           class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 modifyFooter"

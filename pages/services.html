@@ -18,7 +18,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
 </head>
-<body id="topSerevices">
+<body id="topSerevices" class="container">
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -59,30 +59,40 @@
       </div>
     </nav>
   </header>
-  <main class="container mt-4">
-    <!-- Desplegable -->
-    <section class="row justify-content-center">
-      <article class="col-12 col-md-8">
-        <div class="input-group mb-3">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="¿Qué tipo de viajero eres?"
-            aria-label="Tipo de viajero"
-          />
-          <button
-            class="btn btn-outline-secondary dropdown-toggle"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          ></button>
-          <ul class="dropdown-menu dropdown-menu-end w-100">
-            <li><a class="dropdown-item" href="#">Empresa</a></li>
-            <li><a class="dropdown-item" href="#">Nómada</a></li>
-          </ul>
-        </div>
-      </article>
+  <main class="mt-4">
+   <!-- Buscador -->
+    <section class="card p-4 mb-4">
+      <h5 class="text-center mb-4">Elije tu nuevo destino</h5>
+      <div class="row justify-content-center">
+        <article class="col-12 col-md-4 mb-3">
+          <div class="dropdown w-100">
+            <button class="btn btn-outline-secondary dropdown-toggle w-100" 
+            type="button" id="dropdownMenuDestino" data-bs-toggle="dropdown" aria-expanded="false">
+              ¿Dónde quieres ir?
+            </button>
+            <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuDestino">
+              <li><a class="dropdown-item" href="#">Conocimiento (web)</a></li>
+              <li><a class="dropdown-item" href="#">Lugar histórico (data)</a></li>
+              <li><a class="dropdown-item" href="#">Paisaje (fotografía)</a></li>
+            </ul>
+          </div>
+        </article>
+        <article class="col-12 col-md-4 mb-3">
+          <div class="dropdown w-100">
+            <button class="btn btn-outline-secondary dropdown-toggle w-100" 
+            type="button" id="dropdownMenuTipoViaje" data-bs-toggle="dropdown" aria-expanded="false">
+              Tipo de viaje
+            </button>
+            <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuTipoViaje">
+              <li><a class="dropdown-item" href="#">Básico</a></li>
+              <li><a class="dropdown-item" href="#">Premium</a></li>
+              <li><a class="dropdown-item" href="#">VIP</a></li>
+            </ul>
+          </div>
+        </article>
+      </div>
     </section>
+  
   <!-- Línea de tarjetas -->
     <section class="row" id="development">
         <!-- Tarjeta 1 -->
@@ -258,7 +268,12 @@
       </ul>
     </footer>
   </section>
-
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 </body>
 
 </html>
