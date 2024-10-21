@@ -1,207 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>marketing nomada servicios</title>
-  <!-- mi CSS -->
-  <link rel="stylesheet" href="../css/style.css">
-
-</head>
-
-<body id="topSerevices" class="container">
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="nav-link active" aria-current="page" href="../index.html"><img src="../assets/img/logo-fake.jpeg"
-            alt="logo_marketing_nomada" width="45" height="45" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./nomade.html">nómadas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./privacy.html">privacy</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <main class="mt-4">
-    <!-- Buscador -->
-    <section class="card p-4 mb-4">
-      <h5 class="text-center mb-4">Elije tu nuevo destino</h5>
-      <div class="row justify-content-center">
-        <article class="col-12 col-md-4 mb-3">
-          <div class="dropdown w-100">
-            <button class="btn btn-outline-secondary dropdown-toggle w-100" type="button" id="dropdownMenuDestino"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              ¿Dónde quieres ir?
-            </button>
-            <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuDestino">
-              <li><a class="dropdown-item" href="#">Conocimiento (web)</a></li>
-              <li><a class="dropdown-item" href="#">Lugar histórico (data)</a></li>
-              <li><a class="dropdown-item" href="#">Paisaje (fotografía)</a></li>
+  <!-- HEAD -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marketing nomada servicios</title>
+    <!-- mi CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <!-- BODY -->
+  <body id="topSerevices" class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="nav-link active" aria-current="page" href="../index.html"
+            ><img
+              src="../assets/img/logo-fake.jpeg"
+              alt="logo_marketing_nomada"
+              width="45"
+              height="45"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nomade.html">nómadas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">contacto</a>
+              </li>
             </ul>
           </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mt-4">
+      <!-- Buscador -->
+      <section class="card p-4 mb-4">
+        <h5 class="text-center mb-4">Elije tu nuevo destino</h5>
+        <div class="row justify-content-center">
+          <article class="col-12 col-md-4 mb-3">
+            <div class="dropdown w-100">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle w-100"
+                type="button"
+                id="dropdownMenuDestino"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ¿Dónde quieres ir?
+              </button>
+              <ul
+                class="dropdown-menu w-100"
+                aria-labelledby="dropdownMenuDestino"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">Conocimiento (web)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Lugar histórico (data)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Paisaje (fotografía)</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="col-12 col-md-4 mb-3">
+            <div class="dropdown w-100">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle w-100"
+                type="button"
+                id="dropdownMenuTipoViaje"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tipo de viaje
+              </button>
+              <ul
+                class="dropdown-menu w-100"
+                aria-labelledby="dropdownMenuTipoViaje"
+              >
+                <li><a class="dropdown-item" href="#">Básico</a></li>
+                <li><a class="dropdown-item" href="#">Premium</a></li>
+                <li><a class="dropdown-item" href="#">VIP</a></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Línea de tarjetas -->
+      <section class="row" id="development">
+        <!-- Tarjeta 1 -->
+        <article class="col-12 col-md-4 mb-3 d-flex">
+          <div class="card w-100">
+            <img src="../assets/img/wordpress.jpeg" alt="wordpress" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Wordpress</h5>
+            </div>
+            <p class="card-title">tu avioneta autogestionada</p>
+          </div>
         </article>
-        <article class="col-12 col-md-4 mb-3">
-          <div class="dropdown w-100">
-            <button class="btn btn-outline-secondary dropdown-toggle w-100" type="button" id="dropdownMenuTipoViaje"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Tipo de viaje
-            </button>
-            <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuTipoViaje">
-              <li><a class="dropdown-item" href="#">Básico</a></li>
-              <li><a class="dropdown-item" href="#">Premium</a></li>
-              <li><a class="dropdown-item" href="#">VIP</a></li>
-            </ul>
+        <!-- Tarjeta 2 -->
+        <article class="col-12 col-md-4 mb-3 d-flex">
+          <div class="card w-100">
+            <img src="../assets/img/react.jpeg" alt="react" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">React</h5>
+            </div>
+            <p class="card-title">tu avión más adaptable</p>
           </div>
         </article>
-      </div>
-    </section>
+        <!-- Tarjeta 3 -->
+        <article class="col-12 col-md-4 mb-3 d-flex">
+          <div class="card w-100">
+            <img src="../assets/img/angular.jpeg" alt="angular" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Angular</h5>
+            </div>
+            <p class="card-title">tu caza más robusto</p>
+          </div>
+        </article>
+      </section>
+      <!-- Línea de tarjetas medición-->
+      <section class="row" id="analytics">
+        <!-- Tarjeta 4 -->
+        <article class="col-12 col-md-4 mb-3 d-flex">
+          <div class="card w-100">
+            <img src="../assets/img/ga4.jpeg" alt="ga4" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Google Analytics 4</h5>
+            </div>
+            <p class="card-title">tu azafata de datos</p>
+          </div>
+        </article>
+        <!-- Tarjeta 5 -->
+        <article class="col-12 col-md-4 mb-3 d-flex">
+          <div class="card w-100">
+            <img src="../assets/img/ga4.jpeg" alt="gtm" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Google Tag Manager</h5>
+            </div>
+            <p class="card-title">tu agencia low cost</p>
+          </div>
+        </article>
+        <!-- Tarjeta 6 -->
+        <article class="col-12 col-md-4 mb-3 d-flex">
+          <div class="card w-100">
+            <img src="../assets/img/ga4.jpeg" alt="gtm" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Tealium</h5>
+            </div>
+            <p class="card-title">monta tu propia aerolínea</p>
+          </div>
+        </article>
+      </section>
 
-    <!-- Línea de tarjetas -->
-    <section class="row" id="development">
-      <!-- Tarjeta 1 -->
-      <article class="col-12 col-md-4 mb-3 d-flex">
-        <div class="card w-100">
-          <img src="../assets/img/wordpress.jpeg" class="card-img-top" alt="wordpress" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Wordpress</h5>
-            <a href="#" class="btn border-primary">tu avioneta autogestionada</a>
+      <!-- Línea de tarjetas medición-->
+      <section class="row" id="analytics">
+        <!-- Tarjeta 4 -->
+        <article class="col-12 col-md-4 mb-3 d-flex">
+          <div class="card w-100">
+            <img src="../assets/img/food.jpeg" alt="ga4" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Fotografía de productos</h5>
+            </div>
+            <p class="card-title">saborea tu mejor menú</p>
           </div>
-        </div>
-      </article>
-      <!-- Tarjeta 2 -->
-      <article class="col-12 col-md-4 mb-3 d-flex">
-        <div class="card w-100">
-          <img src="../assets/img/react.jpeg" class="card-img-top" alt="reaact" />
-          <div class="card-body text-center">
-            <h5 class="card-title">React</h5>
-            <a href="#" class="btn border-primary">tu avioneta más adaptable</a>
+        </article>
+        <!-- Tarjeta 5 -->
+        <article class="col-12 col-md-4 mb-3 d-flex">
+          <div class="card w-100">
+            <img src="../assets/img/events.jpeg" alt="gtm" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Fotografía de eventos</h5>
+            </div>
+            <p class="card-title">Inmortaliza tu viaje</p>
           </div>
-        </div>
-      </article>
-      <!-- Tarjeta 3 -->
-      <article class="col-12 col-md-4 mb-3 d-flex">
-        <div class="card w-100">
-          <img src="../assets/img/angular.jpeg" class="card-img-top" alt="angular" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Angular</h5>
-            <a href="#" class="btn border-primary">tu avión mása robusto</a>
+        </article>
+        <!-- Tarjeta 6 -->
+        <article class="col-12 col-md-4 mb-3 d-flex">
+          <div class="card w-100">
+            <img src="../assets/img/theater.jpeg" alt="gtm" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Fotografía de teatro</h5>
+            </div>
+            <p class="card-title">Revive los mejores momentos</p>
           </div>
-        </div>
-      </article>
-    </section>
-    <!-- Línea de tarjetas medición-->
-    <section class="row" id="analytics">
-      <!-- Tarjeta 4 -->
-      <article class="col-12 col-md-4 mb-3 d-flex">
-        <div class="card w-100">
-          <img src="../assets/img/ga4.jpeg" class="card-img-top" alt="ga4" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Google Analytics 4</h5>
-            <a href="#" class="btn border-primary">tu azafata de datos</a>
-          </div>
-        </div>
-      </article>
-      <!-- Tarjeta 5 -->
-      <article class="col-12 col-md-4 mb-3 d-flex">
-        <div class="card w-100">
-          <img src="../assets/img/gtm.jpeg" class="card-img-top" alt="gtm" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Google Tag Manager</h5>
-            <a href="#" class="btn border-primary">tu agencia de viajes al mejor precio</a>
-          </div>
-        </div>
-      </article>
-      <!-- Tarjeta 6 -->
-      <article class="col-12 col-md-4 mb-3 d-flex">
-        <div class="card w-100">
-          <img src="../assets/img/tealium.jpeg" class="card-img-top" alt="tealium" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Tealium</h5>
-            <a href="#" class="btn border-primary">monta tu propia compañía</a>
-          </div>
-        </div>
-      </article>
-    </section>
+        </article>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <section>
+      <footer class="p-3 my-4">
+        <section class="col-md-4">
+          <span class="mb-3 mb-md-0">© 2024 Company, Inc</span>
+        </section>
 
-    <!-- Línea de tarjetas -->
-    <section class="row" id="fotografia">
-      <!-- Tarjeta 7 -->
-      <article class="col-12 col-md-4 mb-3 d-flex">
-        <div class="card w-100">
-          <img src="../assets/img/food.jpeg" class="card-img-top" alt="fotografia_productos" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Fotografía de productos</h5>
-            <a href="#" class="btn border-primary">saborea tu mejor menú</a>
-          </div>
-        </div>
-      </article>
-      <!-- Tarjeta 8 -->
-      <article class="col-12 col-md-4 mb-3 d-flex">
-        <div class="card w-100">
-          <img src="../assets/img/events.jpeg" class="card-img-top" alt="fotografia_de eventos" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Fotografía de eventos</h5>
-            <a href="#" class="btn border-primary">Inmortaliza tu viaje</a>
-          </div>
-        </div>
-      </article>
-      <!-- Tarjeta 9 -->
-      <article class="col-12 col-md-4 mb-3 d-flex">
-        <div class="card w-100">
-          <img src="../assets/img/theater.jpeg" class="card-img-top" alt="fotografia_teatro" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Fotografía de teatro</h5>
-            <a href="#" class="btn border-primary">Revive los mejores momentos</a>
-          </div>
-        </div>
-      </article>
+        <section class="footerIcons col-md-4 list-unstyled">
+          <a class="ms-3" href="#"><i class="bi bi-linkedin"></i></a>
+          <a class="ms-3" href="#"><i class="bi bi-whatsapp"></i></a>
+          <a class="ms-3" href="#"><i class="bi bi-instagram"></i></a>
+        </section>
+      </footer>
     </section>
-  </main>
-
-  <section class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
-      </div>
-      <ul class="col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#"><i class="bi bi-whatsapp"></i></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a>
-        </li>
-      </ul>
-    </footer>
-  </section>
     <!-- javascript del curso de JS -->
     <script src="./js/main.js"></script>
     <!--  javascript de bootstrap  -->
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>

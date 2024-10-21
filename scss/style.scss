@@ -1,39 +1,24 @@
-/*
-GAMA DE COLORES
-GRIS 100: #A8B2BF
-VERDE OSCURO: #262614
-VERDE 100: #717343
-MOSTAZA 100: #F2AC29
-MOSTAZA 500: #F29A2E
 
-espacios utiilizar %
-texto utilizar rem
+// Import utilities
+@import "./utilities/colors";
+@import "./utilities/mixins";
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: "Kodchasan", sans-serif;
-    src: url("../assets/typography/Kodchasan-ExtraLight.ttf");
-}
+// Import base
+@import "./base/reset";
+@import "./base/typography";
 
 
-h1, body, html, main {  
-    margin: 0; 
-}
-
-html {   
-    font-family: "Kodchasan", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-*/
+// Import components
+@import "./components/nav";
+@import "./components/card";
+@import "./components/footer";
 
 // Importa Bootstrap (asegúrate de que la ruta sea correcta)
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+
+
+
+

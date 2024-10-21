@@ -1,0 +1,16 @@
+$primary: #262614;
+$primary-ligth: #717343;
+$secondary: #F29A2E;
+$secondary-light: #F2AC29;
+$danger: #ff4136;
+$grey: #A8B2BF;
+
+$theme-colors: (
+  "primary": $primary,
+  "primary-ligth": $primary-ligth,
+  "secondary": $secondary,
+  "secondary-light": $secondary-light,
+  "danger": $danger,
+  "warning": $secondary,
+  "success": $primary-ligth,
+);

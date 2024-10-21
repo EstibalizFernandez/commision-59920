@@ -1,117 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head class="p-4">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>marketing nomada</title>
-  <!-- mi css -->
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body class="container">
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="nav-link active" aria-current="page" href="#"><img src="./assets/img/logo-fake.jpeg"
-            alt="logo_marketing_nomada" width="45" height="45" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/services.html">servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/nomade.html">nómadas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/contact.html">contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/privacy.html">privacy</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <!-- Buscador -->
-    <section class="card p-2 mt-4 mb-4">
-      <h5 class="text-center mb-4">Tu viaje adaptado a ti</h5>
-      <div class="row justify-content-center">
-        <article class="col-12 col-md-8 mb-3">
-          <div class="dropdown w-100">
-            <button class="btn btn-outline-secondary dropdown-toggle w-100" type="button" id="dropdownMenuDestino"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              ¿qué buscas en este viaje?
-            </button>
-            <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuViajero">
-              <li><a class="dropdown-item" href="#">recorrer el mundo (cliente) </a></li>
-              <li><a class="dropdown-item" href="#">formar parte de la tripulación (ofrezco servicios)</a></li>
+  <!-- HEAD -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marketing nomada</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <!-- BODY -->
+  <body id="topHome" class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <section class="container-fluid">
+          <a class="nav-link active" aria-current="page" href="#"
+            ><img
+              src="./assets/img/logo-fake.jpeg"
+              alt="logo_marketing_nomada"
+              width="45"
+              height="45"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <article class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/services.html">servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nomade.html">nómadas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contact.html">contacto</a>
+              </li>
             </ul>
+          </article>
+        </section>
+      </nav>
+    </header>
+    <main class="mt-4">
+      <!-- Buscador -->
+      <section class="card p-4 mb-4">
+        <h1 class="mr-4">¿qué tipo de viaje necesitas?</h1>
+      </section>
+      <!-- cierre de buscador -->
+      <section class="row justify-content-center">
+        <article class="col-12 col-md-6">
+          <div class="card p-0">
+            <img src="./assets/img/company.jpeg" alt="Empresa" />
+            <article
+              class="card-img-overlay p-0 d-flex flex-column justify-content-between align-items-center"
+            >
+              <h2 class="card-title w-100">EMPRESAS</h2>
+              <div class="d-flex">
+                <a
+                  href="./pages/services.html"
+                  class="btn btn-success border-warning m-2"
+                  >SERVICIOS</a
+                >
+                <a
+                  href="./pages/contact.html"
+                  class="btn btn-warning border-warning m-2"
+                  >CONTACTO</a
+                >
+              </div>
+            </article>
           </div>
         </article>
-      </div>
-    </section>
-    <!-- cierre de buscador -->
-    <!-- Línea de tarjetas -->
-    <section class="row justify-content-center">
-      <article class="col-12 col-md-6">
-        <div class="card">
-          <img src="./assets/img/company.jpeg" class="card-img-top" alt="Empresa" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Empresa</h5>
-            <a href="./pages/services.html" class="btn btn-warning">Servicios</a>
-            <a href="./pages/contact.html" class="btn btn-light border-success">Contáctanos</a>
+        <article class="col-12 col-md-6">
+          <div class="card">
+            <img src="./assets/img/nomade.jpeg" alt="nómada" />
+            <article
+              class="card-img-overlay p-0 d-flex flex-column justify-content-between align-items-center"
+            >
+              <h2 class="card-title-nomade w-50">NÓMADAS</h2>
+              <div class="d-flex">
+                <a
+                  href="./pages/nomades.html"
+                  class="btn btn-success border-warning m-2"
+                  >RECURSOS</a
+                >
+                <a
+                  href="./pages/nomades.html"
+                  class="btn btn-warning border-warning m-2"
+                  >ÚNETE</a
+                >
+              </div>
+            </article>
           </div>
-        </div>
-      </article>
-      <article class="col-12 col-md-6">
-        <div class="card">
-          <img src="./assets/img/nomade.jpeg" class="card-img-top" alt="Nómada" />
-          <div class="card-body text-center">
-            <h5 class="card-title">Nómada</h5>
-            <a href="#" class="btn btn-warning">Servicios</a>
-          </div>
-        </div>
-      </article>
+        </article>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <section>
+      <footer class="p-3 my-4">
+        <section class="col-md-4">
+          <span class="mb-3 mb-md-0">© 2024 Company, Inc</span>
+        </section>
+        <section class="footerIcons col-md-4 list-unstyled">
+          <a class="ms-3" href="#"><i class="bi bi-linkedin"></i></a>
+          <a class="ms-3" href="#"><i class="bi bi-whatsapp"></i></a>
+          <a class="ms-3" href="#"><i class="bi bi-instagram"></i></a>
+        </section>
+      </footer>
     </section>
-  </main>
-
-  <section class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
-      </div>
-
-      <ul class="col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#"><i class="bi bi-whatsapp"></i></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a>
-        </li>
-      </ul>
-    </footer>
-  </section>
-  <!-- javascript del curso de JS -->
-  <script src="./js/main.js"></script>
-<!--  javascript de bootstrap  -->
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
+    <!-- javascript del curso de JS -->
+    <script src="./js/main.js"></script>
+    <!--  javascript de bootstrap  -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

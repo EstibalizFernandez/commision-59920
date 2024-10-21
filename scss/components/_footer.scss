@@ -1,0 +1,9 @@
+footer{
+    @include flex(row, space-between, center);
+    background-color: map-get($map: $theme-colors, $key: primary-ligth);
+}
+
+.footerIcons{
+    @include flex(row, flex-end, center);
+    width: 100%;
+}
