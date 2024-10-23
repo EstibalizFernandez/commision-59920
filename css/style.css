@@ -6,6 +6,17 @@
   padding: 0;
   box-sizing: border-box; }
 
+html, body {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+main {
+  flex-grow: 1; }
+
 @font-face {
   font-family: "Kodchasan", sans-serif;
   src: url("../assets/typography/Kodchasan-ExtraLight.ttf"); }
@@ -21,24 +32,32 @@ nav {
 .nav-link {
   color: #F2AC29; }
 
-.card {
-  --bs-card-spacer-y: 0rem;
-  --bs-card-spacer-x: 0rem;
-  --bs-card-title-spacer-y: 0rem; }
+.card img {
+  width: 100%;
+  height: 100%;
+  max-height: 300px; }
 
 .card-title, .card-title-nomade {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: #262614;
+  color: #fff !important;
   border-radius: 2px;
   height: 30%;
-  opacity: 50%; }
+  opacity: 60%; }
 
 .card-title-nomade {
-  margin-top: 10%;
+  margin-top: 20px;
   height: 20%;
   opacity: 80%; }
+
+.card p {
+  display: flex;
+  color: #262614;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red; }
 
 footer {
   display: flex;
