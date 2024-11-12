@@ -16,7 +16,7 @@
     <meta property="author" content="estibaliz fernandez palacios">
     <meta property="copyright" content="marketing nomada">
     <!-- favicon logoai.com/favicon-generator-->
-     <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
     <!-- mi CSS -->
     <link rel="stylesheet" href="../css/style.css" />
   </head>
@@ -80,18 +80,18 @@
                 aria-labelledby="dropdownMenuDestino"
               >
                 <li>
-                  <a class="dropdown-item" href="#">Conocimiento (web)</a>
+                  <a class="dropdown-item" data-bs-toggle="collapse" href="#development">Conocimiento (web)</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Lugar histórico (data)</a>
+                  <a class="dropdown-item" data-bs-toggle="collapse" href="#analytics">Lugar histórico (data)</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Paisaje (fotografía)</a>
+                  <a class="dropdown-item" data-bs-toggle="collapse" href="#photo">Paisaje (fotografía)</a>
                 </li>
               </ul>
             </div>
           </article>
-          <article class="col-12 col-md-4 mb-3">
+          <article class="col-12 col-md-4 mb-3" >
             <div class="dropdown w-100">
               <button
                 class="btn btn-outline-secondary dropdown-toggle w-100"
@@ -106,9 +106,9 @@
                 class="dropdown-menu w-100"
                 aria-labelledby="dropdownMenuTipoViaje"
               >
-                <li><a class="dropdown-item" href="#">Básico</a></li>
-                <li><a class="dropdown-item" href="#">Premium</a></li>
-                <li><a class="dropdown-item" href="#">VIP</a></li>
+                <li><a class="dropdown-item" data-bs-toggle="collapse" href="#basic">Básico</a></li>
+                <li><a class="dropdown-item" data-bs-toggle="collapse" href="#premium">Premium</a></li>
+                <li><a class="dropdown-item" data-bs-toggle="collapse" href="#vip">VIP</a></li>
               </ul>
             </div>
           </article>
@@ -116,7 +116,7 @@
       </section>
 
       <!-- Línea de tarjetas -->
-      <section class="row" id="development">
+      <section class="row collapse" id="development">
         <!-- Tarjeta 1 -->
         <article class="col-12 col-md-4 mb-3 d-flex">
           <div class="card w-100">
@@ -124,7 +124,9 @@
             <div class="card-img-overlay">
               <h2 class="card-title">Wordpress</h2>
             </div>
-            <p>tu avioneta autogestionada</p>
+            <p>tu avioneta autogestionada
+              <span class="badge text-bg-success collapse position-absolute top-0 start-95 translate-middle" id="basic">BÁSICO</span>
+            </p>
           </div>
         </article>
         <!-- Tarjeta 2 -->
@@ -134,7 +136,9 @@
             <div class="card-img-overlay">
               <h2 class="card-title">React</h2>
             </div>
-            <p>tu avión más adaptable</p>
+            <p>tu avión más adaptable
+              <span class="badge text-bg-extra collapse position-absolute top-0 start-95 translate-middle" id="premium">PREMIUM</span>
+            </p>
           </div>
         </article>
         <!-- Tarjeta 3 -->
@@ -144,12 +148,14 @@
             <div class="card-img-overlay">
               <h2 class="card-title">Angular</h2>
             </div>
-            <p>tu caza más robusto</p>
+            <p>tu caza más robusto
+              <span class="badge text-bg-warning collapse position-absolute top-0 start-95 translate-middle" id="vip">VIP</span>
+            </p>
           </div>
         </article>
       </section>
       <!-- Línea de tarjetas medición-->
-      <section class="row" id="analytics">
+      <section class="row collapse" id="analytics">
         <!-- Tarjeta 4 -->
         <article class="col-12 col-md-4 mb-3 d-flex">
           <div class="card w-100">
@@ -157,7 +163,9 @@
             <div class="card-img-overlay">
               <h3 class="card-title">Google Analytics 4</h3>
             </div>
-            <p>tu azafata de datos</p>
+            <p>tu azafata de datos
+              <span class="badge text-bg-success collapse position-absolute top-0 start-95 translate-middle" id="basic">BÁSICO</span>
+            </p>
           </div>
         </article>
         <!-- Tarjeta 5 -->
@@ -167,7 +175,10 @@
             <div class="card-img-overlay">
               <h4 class="card-title">Google Tag Manager</h4>
             </div>
-            <p>tu agencia low cost</p>
+            <p>tu agencia low cost
+              <span class="badge text-bg-extra collapse position-absolute top-0 start-95 translate-middle" id="premium">PREMIUM</span>
+
+            </p>
           </div>
         </article>
         <!-- Tarjeta 6 -->
@@ -177,13 +188,15 @@
             <div class="card-img-overlay">
               <h4 class="card-title">Tealium</h4>
             </div>
-            <p>monta tu propia aerolínea</p>
+            <p>monta tu propia aerolínea
+              <span class="badge text-bg-secondary collapse position-absolute top-0 start-95 translate-middle" id="vip">VIP</span>
+            </p>
           </div>
         </article>
       </section>
 
       <!-- Línea de tarjetas medición-->
-      <section class="row" id="analytics">
+      <section class="row collapse" id="photo">
         <!-- Tarjeta 4 -->
         <article class="col-12 col-md-4 mb-3 d-flex">
           <div class="card w-100">
@@ -191,7 +204,9 @@
             <div class="card-img-overlay">
               <h5 class="card-title">Fotografía de productos</h5>
             </div>
-            <p>saborea tu mejor menú</p>
+            <p>saborea tu mejor menú
+              <span class="badge text-bg-success collapse position-absolute top-0 start-95 translate-middle" id="basic">BÁSICO</span>
+            </p>
           </div>
         </article>
         <!-- Tarjeta 5 -->
@@ -201,7 +216,9 @@
             <div class="card-img-overlay">
               <h5 class="card-title">Fotografía de eventos</h5>
             </div>
-            <p>Inmortaliza tu viaje</p>
+            <p>Inmortaliza tu viaje
+              <span class="badge text-bg-extra collapse position-absolute top-0 start-95 translate-middle" id="premium">PREMIUM</span>
+            </p>
           </div>
         </article>
         <!-- Tarjeta 6 -->
@@ -211,7 +228,9 @@
             <div class="card-img-overlay">
               <h5 class="card-title">Fotografía de teatro</h5>
             </div>
-            <p>Revive los mejores momentos</p>
+            <p>Revive los mejores momentos
+              <span class="badge text-bg-secondary collapse position-absolute top-0 start-95 translate-middle" id="vip">VIP</span>
+            </p>
           </div>
         </article>
       </section>
@@ -231,7 +250,7 @@
       </footer>
     </section>
     <!-- javascript del curso de JS -->
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
     <!--  javascript de bootstrap  -->
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>

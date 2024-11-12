@@ -4,6 +4,7 @@ $secondary: #F29A2E;
 $secondary-light: #F2AC29;
 $danger: #ff4136;
 $grey: #A8B2BF;
+$purple:  #6f42c1;
 
 $theme-colors: (
   "primary": $primary,
@@ -13,4 +14,5 @@ $theme-colors: (
   "danger": $danger,
   "warning": $secondary,
   "success": $primary-ligth,
-);
+  "extra": $purple,
+)
